@@ -1,0 +1,83 @@
+
+*{
+    padding:0%;
+    margin: 0%;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+.side{
+    display:flex;
+    justify-content: space-evenly;
+}
+.maincontainer{
+    padding:0%;
+    margin: 0%;
+    background-image: url("photography.jpg");
+    background-size:cover;
+    height:100vh;
+} 
+.ssbmcontainer{
+
+    position:fixed;
+    width:300px;
+    height:100vh;
+    background-color:rgb(255,255,255,0.7);
+    box-shadow:0 0 2px rgb(255,255, 255, 0.7);
+}
+.box div{
+     width:100%;
+     height:50px;
+
+}
+.side div a{
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#x{
+    align-items: end;
+}
+.side{
+    height:80px;
+}
+.footer{
+    width:100%;
+    padding:40px;
+    padding-left: 50px;
+    align-items: center;
+}
+.box{
+    padding-left: 20px;
+}
+.side input{
+    background-color:grey;
+}
+.box i{
+    padding-right: 4px;
+}
+#check{
+    display:none;
+}
+.box div:hover{
+    box-shadow:0 0 2px rgb(255,255, 255, 0.5);
+}
+.bars label i:hover{
+    font-size: 50px;
+    cursor: pointer;
+
+}
+.x label i:hover{
+    font-size: 50px;
+    cursor: pointer;
+}
+.footer i:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.side input[type="checkbox"]:check+label{
+    left:0;
+    
+}
+.bars{
+    position:sticky;
+
+}
